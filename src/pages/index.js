@@ -37,7 +37,7 @@ export default function Home({Movies}) {
 
   return (
     <>
-<main className='   h-screen bg-cover bg-center relative  md:bg-cover' style={{ backgroundImage: `url(https://image.tmdb.org/t/p/original/${movie?.backdrop_path})` ,backgroundRepeat:'no-repeat' }}>
+<main className='   h-screen   bg-cover d bg-center relative  md:bg-cover' style={{ backgroundImage: `url(https://image.tmdb.org/t/p/original/${movie?.backdrop_path})` ,backgroundRepeat:'no-repeat' }}>
 <Navbar className="absolute" />
 <div className='z-10 absolute top-0 w-full h-full  bg-gradient-to-tr from-[#0C1516]'></div> 
 <div className='z-10 absolute top-0 w-full h-full  bg-gradient-to-tl from-[#0C1516]'></div> 
